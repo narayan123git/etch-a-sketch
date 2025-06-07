@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.controls {
+  background: rgba(0, 0, 0, 0.3); /* darker background for contrast */
+  color: #fff;                    /* white text for visibility */
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;        /* center controls */
+  align-items: center;
+}
+
+button, input[type="color"], input[type="range"] {
+  color: #000; /* black text for buttons/inputs */
+  background: #fff; /* white background for contrast */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 5px;
+  padding: 10px 15px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.grid {
+  display: grid;
+  width: 600px;
+  height: 600px;
+  border: 2px solid #fff;
+  margin: 0 auto;
+}
